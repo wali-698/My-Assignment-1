@@ -42,3 +42,69 @@ body{
     padding: 12px 24px;
     border-radius: 8px;
 }
+.hero{
+    height: 650px;
+    background: url(./images/banner.jpg) center/cover no-repeat;
+}
+.hero-overlay{
+    height: 100%;
+    background: rgba(0,0,0,.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content{
+    max-width: 700px;
+    color:#fff;
+}
+.hero-content h1{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    color: #eee;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    background: #2453FF;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 8px;
+}
+.speakers{
+margin: 80px auto;
+}
+.speakers h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.speaker-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.speaker-card img{
+    width: 100%;
+}
+.speaker-info span{
+    color: #2453FF;
+    font-size: 13px;
+    font-weight: bold;
+}
+.speaker-info h3{
+    margin: 10px 0;
+}
+.speaker-info p{
+    color: #666;
+}
