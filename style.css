@@ -132,7 +132,7 @@ margin: 80px auto;
     padding: 25px;
 }
 .active{
-    background-color: #2453FF;
+    background-color: black;
 }
 
 .price-card h1{
@@ -150,13 +150,58 @@ margin: 80px auto;
     display: block;
     text-align: center;
     text-decoration: none;
-    background-color: #2453FF;
-    color:#fff;
+    background-color: white;
+    color:black;
     padding: 12px;
     border-radius: 8px;
     width:auto;
+    cursor: pointer;
 }
 .active .price-btn{
     background-color: #fff;
     color: #2453FF;
+}
+.hehe{
+    color: white;
+}
+.hehehe{
+    color:white;
+}
+.priceone{
+     display: block;
+    text-align: center; display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color:blue;
+    padding: 12px;
+    border-radius: 8px;
+    width:auto;
+    border-color: blue;
+    cursor: pointer;
+    
+}
+.pricetwo{
+     display: block;
+    text-align: center; display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: blue;
+    color:white;
+    padding: 12px;
+    border-radius: 8px;
+    width:auto;
+    border-color: blue;
+    cursor: pointer;
+}
+.heheh{
+    color:blue
+}
+.myhero{
+    width:90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.mouse{
+    cursor: pointer;
 }
