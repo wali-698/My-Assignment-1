@@ -205,3 +205,62 @@ margin: 80px auto;
 .mouse{
     cursor: pointer;
 }
+
+
+
+
+
+
+
+/* this part is AI made */
+
+
+
+
+
+
+
+.help{
+    padding: 80px 10%;
+}
+
+.help-heading{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.help-container{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+}
+.help-left,
+.help-right{
+    flex:1;
+}
+.help-left ul{
+    list-style:none;
+    padding:0;
+}
+
+.help-left li{
+    margin-bottom:20px;
+}
+.help-right p{
+    margin-bottom:18px;
+}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+
+    background:#2563eb;
+    color:white;
+
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
