@@ -134,15 +134,7 @@ margin: 80px auto;
 .active{
     background-color: #2453FF;
 }
-.popular{
-    display: inline-block;
-    background-color: #fff;
-    color:#2453FF;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin-bottom: 15px;
-    font-size: 12px;
-}
+
 .price-card h1{
     margin: 15px 0;
     font-size: 42px;
